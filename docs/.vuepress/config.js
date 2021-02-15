@@ -2,6 +2,8 @@ module.exports = {
   title: "DM",
   description: "daimian的网站",
   head: [["link", { rel: "icon", href: "/logo.png" }]],
+  host: "localhost", // ip
+  port: "80", //端口号
   themeConfig: {
     navs: [
       { text: "学习笔记", link: "/note/" },
